@@ -1,0 +1,15 @@
+<PAMDataset>
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -8.9353202213733454e+01,  6.2873634021637977e-06,  0.0000000000000000e+00,  2.9292094529986962e+01,  0.0000000000000000e+00, -6.2873634021637977e-06</GeoTransform>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+    <MDI key="EXIF_Artist">Mirza</MDI>
+    <MDI key="EXIF_DateTimeDigitized">2013:12:06 09:17:19</MDI>
+    <MDI key="EXIF_DateTimeOriginal">2013:12:06 09:17:19</MDI>
+    <MDI key="EXIF_SubSecTime_Digitized">89</MDI>
+    <MDI key="EXIF_SubSecTime_Original">89</MDI>
+  </Metadata>
+</PAMDataset>

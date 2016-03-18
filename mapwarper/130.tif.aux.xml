@@ -1,0 +1,5 @@
+<PAMDataset>
+  <PAMRasterBand band="5">
+    <ColorInterp>Alpha</ColorInterp>
+  </PAMRasterBand>
+</PAMDataset>

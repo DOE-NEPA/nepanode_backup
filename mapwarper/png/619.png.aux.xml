@@ -1,0 +1,21 @@
+<PAMDataset>
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.1727183256562556e+02,  1.0320434631963950e-05,  0.0000000000000000e+00,  4.9517911495592074e+01,  0.0000000000000000e+00, -1.0320434631963950e-05</GeoTransform>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+    <MDI key="EXIF_ColorSpace">1</MDI>
+    <MDI key="EXIF_ComponentsConfiguration">0x1 0x2 0x3 00</MDI>
+    <MDI key="EXIF_ExifVersion">0200</MDI>
+    <MDI key="EXIF_FlashpixVersion">0101</MDI>
+    <MDI key="EXIF_Orientation">1</MDI>
+    <MDI key="EXIF_PixelXDimension">800</MDI>
+    <MDI key="EXIF_PixelYDimension">1018</MDI>
+    <MDI key="EXIF_ResolutionUnit">2</MDI>
+    <MDI key="EXIF_XResolution">(72)</MDI>
+    <MDI key="EXIF_YCbCrPositioning">1</MDI>
+    <MDI key="EXIF_YResolution">(72)</MDI>
+  </Metadata>
+</PAMDataset>

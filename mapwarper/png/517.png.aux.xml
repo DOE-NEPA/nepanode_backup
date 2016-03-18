@@ -1,0 +1,21 @@
+<PAMDataset>
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.0342506171160642e+02,  6.7494609104552170e-03,  0.0000000000000000e+00,  4.4675430376656166e+01,  0.0000000000000000e+00, -6.7494609104552170e-03</GeoTransform>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+    <MDI key="EXIF_ColorSpace">1</MDI>
+    <MDI key="EXIF_DateTime">2015:03:25 00:38:09</MDI>
+    <MDI key="EXIF_ExifVersion">0210</MDI>
+    <MDI key="EXIF_FlashpixVersion">0100</MDI>
+    <MDI key="EXIF_Orientation">1</MDI>
+    <MDI key="EXIF_PixelXDimension">7160</MDI>
+    <MDI key="EXIF_PixelYDimension">7473</MDI>
+    <MDI key="EXIF_ResolutionUnit">2</MDI>
+    <MDI key="EXIF_Software">GIMP 2.8.10</MDI>
+    <MDI key="EXIF_XResolution">(72)</MDI>
+    <MDI key="EXIF_YResolution">(72)</MDI>
+  </Metadata>
+</PAMDataset>

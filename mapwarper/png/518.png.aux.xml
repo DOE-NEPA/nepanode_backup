@@ -1,0 +1,19 @@
+<PAMDataset>
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.3275504471265515e+02,  2.5990162700841996e-02,  0.0000000000000000e+00,  5.4991080878739758e+01,  0.0000000000000000e+00, -2.5990162700841996e-02</GeoTransform>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+    <MDI key="EXIF_ColorSpace">65535</MDI>
+    <MDI key="EXIF_DateTime">2009:04:10 09:37:52</MDI>
+    <MDI key="EXIF_Orientation">1</MDI>
+    <MDI key="EXIF_PixelXDimension">3296</MDI>
+    <MDI key="EXIF_PixelYDimension">2826</MDI>
+    <MDI key="EXIF_ResolutionUnit">2</MDI>
+    <MDI key="EXIF_Software">Adobe Photoshop CS4 Windows</MDI>
+    <MDI key="EXIF_XResolution">(350)</MDI>
+    <MDI key="EXIF_YResolution">(350)</MDI>
+  </Metadata>
+</PAMDataset>
