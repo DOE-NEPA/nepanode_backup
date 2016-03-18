@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+>
+  <dcat:Dataset rdf:about="http://catalog.dev/dataset/doe-eis-0360-depleted-uranium-oxide-conversion-product-at-the-portsmouth-ohio-site">
+    <owl:sameAs rdf:resource="urn:uuid:12976309-c69b-4a47-a722-7e54b05b506c"/>
+    <dct:description>This site-specific EIS analyzes the construction, operation, maintenance, and decontamination and decommissioning of the proposed depleted uranium hexafluoride (DUF6) conversion facility at three alternative locations within the Portsmouth site; transportation of all cylinders (DUF6, enriched, and empty) currently stored at the East Tennessee Technology Park (ETTP) near Oak Ridge, Tennessee, to Portsmouth; construction of a new cylinder storage yard at Portsmouth (if required) for ETTP cylinders; transportation of depleted uranium conversion products and waste materials to a disposal facility; transportation and sale of the hydrogen fluoride (HF) produced as a conversion coproduct; and neutralization of HF to calcium fluoride and its sale or disposal in the event that the HF product is not sold. This EIS also considers a no action alternative that assumes continued storage of DUF6 at the Portsmouth and ETTP sites. A separate EIS has been prepared for a similar proposed facility at Paducah (DOE/EIS-0359).
+</dct:description>
+    
+        <dcat:keyword></dcat:keyword>
+    
+    <foaf:homepage rdf:resource="http://catalog.dev/dataset/doe-eis-0360-depleted-uranium-oxide-conversion-product-at-the-portsmouth-ohio-site"/>
+    <rdfs:label>doe-eis-0360-depleted-uranium-oxide-conversion-product-at-the-portsmouth-ohio-site</rdfs:label>
+
+    <dct:identifier>doe-eis-0360-depleted-uranium-oxide-conversion-product-at-the-portsmouth-ohio-site</dct:identifier>
+    <dct:title>DOE-EIS-0360: Depleted Uranium Oxide Conversion Product at the Portsmouth, Ohio Site</dct:title>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/60.kml"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>KML</rdf:value>
+                            <rdfs:label>KML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>KML Access</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/60.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>Map Warper</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://energy.gov/node/299851"/>
+                    
+               <dct:title>Source of Project</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://gcmd.nasa.gov/Resources/valids/archives/keyword_list.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>GCMD Science Keywords and Associated Directory Keywords</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://gcmd.nasa.gov/Resources/valids/archives/keyword_list.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>GCMD Science Keywords and Associated Directory Keywords</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/wms/60?request=GetCapabilities&amp;service=WMS&amp;version=1.1.1"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>OGC-WMS</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+    
+    
+
+    
+
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-east-long</rdfs:label>
+            <rdf:value>-82.9838008996917</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>resource-type</rdfs:label>
+            <rdf:value>dataset</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-north-lat</rdfs:label>
+            <rdf:value>39.0263350913337</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>coupled-resource</rdfs:label>
+            <rdf:value>[{&#34;href&#34;: [&#34;#DataIdentification&#34;], &#34;uuid&#34;: [], &#34;title&#34;: []}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>guid</rdfs:label>
+            <rdf:value>60-NEPAMW-73e77c44-b142-4763-bb25-ceca6439c542</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial_harvester</rdfs:label>
+            <rdf:value>True</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-south-lat</rdfs:label>
+            <rdf:value>38.9925378498571</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-reference-system</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial</rdfs:label>
+            <rdf:value>{&#34;type&#34;: &#34;Polygon&#34;, &#34;coordinates&#34;: [[[-83.0175025337, 38.9925378499], [-82.9838008997, 38.9925378499], [-82.9838008997, 39.0263350913], [-83.0175025337, 39.0263350913], [-83.0175025337, 38.9925378499]]]}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>progress</rdfs:label>
+            <rdf:value>onGoing</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>access_constraints</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal-extent-begin</rdfs:label>
+            <rdf:value>2014-08-22</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-email</rdfs:label>
+            <rdf:value>AskNEPA@hq.doe.gov</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-west-long</rdfs:label>
+            <rdf:value>-83.0175025336959</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-date</rdfs:label>
+            <rdf:value>2014-08-22</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>dataset-reference-date</rdfs:label>
+            <rdf:value>[{&#34;type&#34;: &#34;publication&#34;, &#34;value&#34;: &#34;2014-08-22&#34;}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>frequency-of-update</rdfs:label>
+            <rdf:value>daily</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>licence</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata_type</rdfs:label>
+            <rdf:value>geospatial</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>responsible-party</rdfs:label>
+            <rdf:value>[{&#34;name&#34;: &#34;U.S. Department of Energy&#34;, &#34;roles&#34;: [&#34;pointOfContact&#34;]}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-data-service-type</rdfs:label>
+            <rdf:value>Open Geospatial Consortium Web Map Service (WMS)</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-language</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_object_id</rdfs:label>
+            <rdf:value>5208ee49-1281-4761-a6c9-d2878639533c</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_id</rdfs:label>
+            <rdf:value>93b99d77-c1ee-4e43-8787-ea63a3cccc7d</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_title</rdfs:label>
+            <rdf:value>NEPAnode MapWarper</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+  </dcat:Dataset>
+</rdf:RDF>

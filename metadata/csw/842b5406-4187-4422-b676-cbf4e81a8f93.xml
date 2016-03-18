@@ -1,0 +1,554 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dct="http://purl.org/dc/terms/" xmlns:ows="http://www.opengis.net/ows" xmlns:apiso="http://www.opengis.net/cat/csw/apiso/1.0" xmlns:gml="http://www.opengis.net/gml" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:ogc="http://www.opengis.net/ogc" xmlns:fgdc="http://www.opengis.net/cat/csw/csdgm" xmlns:inspire_ds="http://inspire.ec.europa.eu/schemas/inspire_ds/1.0" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:os="http://a9.com/-/spec/opensearch/1.1/" xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:wrs="http://www.opengis.net/cat/wrs/1.0" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+   <gmd:fileIdentifier>
+     <gco:CharacterString>eb3c2610-4986-11e4-b595-0edf278dde01</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+     <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+     <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact> 
+     <gmd:CI_ResponsibleParty>
+       <gmd:individualName gco:nilReason="missing">
+         
+       </gmd:individualName>
+       <gmd:organisationName gco:nilReason="missing">
+         
+       </gmd:organisationName>
+       <gmd:positionName gco:nilReason="missing">
+         
+       </gmd:positionName>
+       <gmd:contactInfo>
+         <gmd:CI_Contact>
+           <gmd:phone>
+             <gmd:CI_Telephone>
+               <gmd:voice gco:nilReason="missing">
+                 
+               </gmd:voice>
+               <gmd:facsimile gco:nilReason="missing">
+                 
+               </gmd:facsimile>
+             </gmd:CI_Telephone>
+           </gmd:phone>
+           <gmd:address>
+             <gmd:CI_Address>
+               <gmd:deliveryPoint gco:nilReason="missing">
+                 
+               </gmd:deliveryPoint>
+               <gmd:city gco:nilReason="missing">
+                 
+               </gmd:city>
+               <gmd:administrativeArea gco:nilReason="missing">
+                 
+               </gmd:administrativeArea>
+               <gmd:postalCode gco:nilReason="missing">
+                 
+               </gmd:postalCode>
+               <gmd:country gco:nilReason="missing">
+                 
+               </gmd:country>
+               <gmd:electronicMailAddress>
+                 <gco:CharacterString>rollins@anl.gov</gco:CharacterString>
+               </gmd:electronicMailAddress>
+             </gmd:CI_Address>
+           </gmd:address>
+           
+         </gmd:CI_Contact>
+       </gmd:contactInfo>
+       <gmd:role>
+         <gmd:CI_RoleCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+       </gmd:role>
+     </gmd:CI_ResponsibleParty>
+   </gmd:contact> 
+   <gmd:dateStamp>
+     <gco:DateTime>2014-10-01T11:20:54Z</gco:DateTime>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+     <gco:CharacterString>ISO 19115:2003 - Geographic information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+     <gco:CharacterString>ISO 19115:2003</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo/>
+   <gmd:referenceSystemInfo>
+     <gmd:MD_ReferenceSystem>
+       <gmd:referenceSystemIdentifier>
+         <gmd:RS_Identifier>
+           <gmd:code>
+             <gco:CharacterString>4326</gco:CharacterString>
+           </gmd:code>
+           <gmd:codeSpace>
+             <gco:CharacterString>EPSG</gco:CharacterString>
+           </gmd:codeSpace>
+           <gmd:version>
+             <gco:CharacterString>6.11</gco:CharacterString>
+           </gmd:version>
+         </gmd:RS_Identifier>
+       </gmd:referenceSystemIdentifier>
+     </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+   <gmd:identificationInfo>
+     <gmd:MD_DataIdentification>
+       <gmd:citation>
+         <gmd:CI_Citation>
+           <gmd:title>
+             <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014]</gco:CharacterString>
+           </gmd:title>
+           <gmd:date>
+             <gmd:CI_Date>
+               <gmd:date>
+                 <gco:DateTime>2014-10-01T11:20:54Z</gco:DateTime>
+               </gmd:date>
+               <gmd:dateType>
+                 <gmd:CI_DateTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+               </gmd:dateType>
+             </gmd:CI_Date>
+           </gmd:date>
+           <gmd:edition>
+                 <gco:CharacterString>2014</gco:CharacterString>
+           </gmd:edition>
+           <gmd:presentationForm>
+             <gmd:CI_PresentationFormCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+           </gmd:presentationForm>
+         </gmd:CI_Citation>
+       </gmd:citation>
+       <gmd:abstract>
+         <gco:CharacterString>The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.  The American Indian/Alaska Native/Native Hawaiian (AIANNH) Areas Shapefile includes the following legal entities: federally recognized American Indian reservations and off-reservation trust land areas, state-recognized American Indian reservations, and Hawaiian home lands (HHLs).  The statistical entities included are Alaska Native village statistical areas (ANVSAs), Oklahoma tribal statistical areas (OTSAs), tribal designated statistical areas (TDSAs), and state designated tribal statistical areas (SDTSAs).  Joint use areas are also included in this shapefile refer to areas that are administered jointly and/or claimed by two or more American Indian tribes.  The Census Bureau designates both legal and statistical joint use areas as unique geographic entities for the purpose of presenting statistical data.  Note that tribal subdivisions and Alaska Native Regional Corporations (ANRCs) are additional types of American Indian/Alaska Native areas stored by the Census Bureau, but are displayed in separate shapefiles because of how they fall within the Census Bureau's geographic hierarchy.  The State of Hawaii's Office of Hawaiian Home Lands provides the legal boundaries for the HHLs. The boundaries for ANVSAs, OTSAs, and TDSAs were delineated for the 2010 Census through the Tribal Statistical Areas Program (TSAP) by participants from the federally recognized tribal governments.  The Bureau of Indian Affairs (BIA) within the U.S. Department of the Interior (DOI) provides the list of federally recognized tribes and only provides legal boundary information when the tribes need supporting records, if a boundary is based on treaty or another document that is historical or open to legal interpretation, or when another tribal, state, or local government challenges the depiction of a reservation or off-reservation trust land.  
+
+ The boundaries for federally recognized American Indian reservations and off-reservation trust lands are as of January 1, 2013, as reported by the federally recognized tribal governments through the Census Bureau's Boundary and Annexation Survey (BAS).
+
+ The boundaries for state-recognized American Indian reservations and for SDTSAs were delineated by a state governor-appointed liaisons for the 2010 Census through the State American Indian Reservation Program and TSAP respectively.No abstract provided</gco:CharacterString>
+       </gmd:abstract>
+       <gmd:purpose>
+             <gco:CharacterString>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</gco:CharacterString>
+       </gmd:purpose>
+       <gmd:status>
+         <gmd:MD_ProgressCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+       </gmd:status>
+       
+       <gmd:graphicOverview>
+         <gmd:MD_BrowseGraphic>
+           <gmd:fileName>
+             <gco:CharacterString>http://nepanode.anl.gov/uploaded/thumbs/layer-eb3c2610-4986-11e4-b595-0edf278dde01-thumb.png</gco:CharacterString>
+           </gmd:fileName>
+           <gmd:fileDescription>
+             <gco:CharacterString>Thumbnail for 'American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014]'</gco:CharacterString>
+           </gmd:fileDescription>
+           <gmd:fileType>
+             <gco:CharacterString>image/png</gco:CharacterString>
+           </gmd:fileType>
+         </gmd:MD_BrowseGraphic>
+       </gmd:graphicOverview>
+       <gmd:resourceFormat>
+         <gmd:MD_Format>
+           <gmd:name>
+             
+             <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+             
+           </gmd:name>
+           <gmd:version>
+             <gco:CharacterString>1.0</gco:CharacterString>
+           </gmd:version>
+         </gmd:MD_Format>
+       </gmd:resourceFormat>
+       
+       <gmd:descriptiveKeywords>
+         <gmd:MD_Keywords>
+           
+           <gmd:keyword>
+             <gco:CharacterString>boundaries</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+         </gmd:MD_Keywords>
+       </gmd:descriptiveKeywords>
+       
+       
+       
+       
+       <gmd:resourceConstraints>
+         <gmd:MD_LegalConstraints>
+           <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue=""/>
+           </gmd:useConstraints>
+           <gmd:otherConstraints>
+             <gco:CharacterString>The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</gco:CharacterString>
+           </gmd:otherConstraints>
+         </gmd:MD_LegalConstraints>
+       </gmd:resourceConstraints>
+       <gmd:spatialRepresentationType>
+         <gmd:MD_SpatialRepresentationTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue=""/>
+       </gmd:spatialRepresentationType>
+       <gmd:language>
+         <gco:CharacterString>eng</gco:CharacterString>
+       </gmd:language>
+       <gmd:characterSet>
+         <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+       </gmd:characterSet>
+       <gmd:topicCategory>
+         
+         <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
+         
+       </gmd:topicCategory>
+       <gmd:extent>
+         <gmd:EX_Extent>
+           <gmd:geographicElement>
+             <gmd:EX_GeographicBoundingBox>
+               <gmd:westBoundLongitude>
+                 <gco:Decimal>-174.237101</gco:Decimal>
+               </gmd:westBoundLongitude>
+               <gmd:eastBoundLongitude>
+                 <gco:Decimal>-67.035518</gco:Decimal>
+               </gmd:eastBoundLongitude>
+               <gmd:southBoundLatitude>
+                 <gco:Decimal>18.91069</gco:Decimal>
+               </gmd:southBoundLatitude>
+               <gmd:northBoundLatitude>
+                 <gco:Decimal>71.340257</gco:Decimal>
+               </gmd:northBoundLatitude>
+             </gmd:EX_GeographicBoundingBox>
+           </gmd:geographicElement>
+         </gmd:EX_Extent>
+       </gmd:extent>
+       
+       <gmd:supplementalInformation>
+         <gco:CharacterString>No information provided</gco:CharacterString>
+       </gmd:supplementalInformation>
+     </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+     <gmd:MD_Distribution>
+       <gmd:transferOptions>
+         <gmd:MD_DigitalTransferOptions>
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                   <gmd:URL>http://nepanode.anl.gov/layers/geonode%3Aaiannh_2014</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:description>
+                 <gco:CharacterString>Online link to the 'American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014]' description on GeoNode</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Aaiannh_2014&amp;width=1124&amp;bbox=-174.237101%2C18.91069%2C-67.035518%2C71.340257&amp;service=WMS&amp;format=image%2Fjpeg&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.jpg</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (JPEG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Aaiannh_2014&amp;width=1124&amp;bbox=-174.237101%2C18.91069%2C-67.035518%2C71.340257&amp;service=WMS&amp;format=application%2Fpdf&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.pdf</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (PDF Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Aaiannh_2014&amp;width=1124&amp;bbox=-174.237101%2C18.91069%2C-67.035518%2C71.340257&amp;service=WMS&amp;format=image%2Fpng&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (PNG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?format_options=charset%3AUTF-8&amp;typename=geonode%3Aaiannh_2014&amp;outputFormat=SHAPE-ZIP&amp;version=1.0.0&amp;service=WFS&amp;request=GetFeature</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.zip</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (Zipped Shapefile Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Aaiannh_2014&amp;outputFormat=gml2&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.gml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (GML 2.0 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Aaiannh_2014&amp;outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.gml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (GML 3.1.1 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Aaiannh_2014&amp;outputFormat=csv&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.csv</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (CSV Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Aaiannh_2014&amp;outputFormat=excel&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.excel</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (Excel Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?srsName=EPSG%3A4326&amp;typename=geonode%3Aaiannh_2014&amp;outputFormat=json&amp;version=1.0.0&amp;service=WFS&amp;request=GetFeature</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.json</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (GeoJSON Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Aaiannh_2014&amp;mode=download</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.kml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (KML Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Aaiannh_2014&amp;mode=refresh</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.kml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (View in Google Earth Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/gwc/service/gmaps?layers=geonode:aiannh_2014&amp;zoom={z}&amp;x={x}&amp;y={y}&amp;format=image/png8</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.tiles</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (Tiles Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/reflect?layers=geonode:aiannh_2014&amp;width=200&amp;height=150&amp;format=image/png8</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (Remote Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/uploaded/thumbs/layer-eb3c2610-4986-11e4-b595-0edf278dde01-thumb.png</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?request=GetLegendGraphic&amp;format=image/png&amp;WIDTH=20&amp;HEIGHT=20&amp;LAYER=geonode:aiannh_2014&amp;legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>aiannh_2014.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] (Legend Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/geonode/wms</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WMS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>OGC:WMS geonode Service - Provides Layer: American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014]</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>OGC WMS: geonode Service Root Endpoint.  This service contains the American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] layer.</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/geonode/wfs</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WFS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>OGC:WFS geonode Service - Provides Layer: American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014]</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>OGC WFS: geonode Service Root Endpoint.  This service contains the American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) [Census][2014] layer.</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+         </gmd:MD_DigitalTransferOptions>
+       </gmd:transferOptions>
+     </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+     <gmd:DQ_DataQuality>
+       <gmd:scope>
+         <gmd:DQ_Scope>
+           <gmd:level>
+             <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+           </gmd:level>
+         </gmd:DQ_Scope>
+       </gmd:scope>
+       <gmd:lineage>
+         <gmd:LI_Lineage>
+           <gmd:statement gco:nilReason="missing"/>
+         </gmd:LI_Lineage>
+       </gmd:lineage>
+     </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+ </gmd:MD_Metadata>

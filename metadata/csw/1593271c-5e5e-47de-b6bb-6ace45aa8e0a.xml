@@ -1,0 +1,559 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dct="http://purl.org/dc/terms/" xmlns:ows="http://www.opengis.net/ows" xmlns:apiso="http://www.opengis.net/cat/csw/apiso/1.0" xmlns:gml="http://www.opengis.net/gml" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:ogc="http://www.opengis.net/ogc" xmlns:fgdc="http://www.opengis.net/cat/csw/csdgm" xmlns:inspire_ds="http://inspire.ec.europa.eu/schemas/inspire_ds/1.0" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:os="http://a9.com/-/spec/opensearch/1.1/" xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:wrs="http://www.opengis.net/cat/wrs/1.0" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+   <gmd:fileIdentifier>
+     <gco:CharacterString>b3a64b38-f051-11e3-843a-0edf278dde01</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+     <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+     <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact> 
+     <gmd:CI_ResponsibleParty>
+       <gmd:individualName gco:nilReason="missing">
+         
+       </gmd:individualName>
+       <gmd:organisationName>
+          <gco:CharacterString>Office of NEPA Policy and Compliance (GC-54)</gco:CharacterString> 
+       </gmd:organisationName>
+       <gmd:positionName>
+         <gco:CharacterString>Environmental Protection Specialist &amp; NEPAnode Project Manager</gco:CharacterString> 
+       </gmd:positionName>
+       <gmd:contactInfo>
+         <gmd:CI_Contact>
+           <gmd:phone>
+             <gmd:CI_Telephone>
+               <gmd:voice>
+                 <gco:CharacterString>973-931-0580</gco:CharacterString>
+               </gmd:voice>
+               <gmd:facsimile gco:nilReason="missing">
+                 
+               </gmd:facsimile>
+             </gmd:CI_Telephone>
+           </gmd:phone>
+           <gmd:address>
+             <gmd:CI_Address>
+               <gmd:deliveryPoint gco:nilReason="missing">
+                 
+               </gmd:deliveryPoint>
+               <gmd:city gco:nilReason="missing">
+                 
+               </gmd:city>
+               <gmd:administrativeArea gco:nilReason="missing">
+                 
+               </gmd:administrativeArea>
+               <gmd:postalCode gco:nilReason="missing">
+                 
+               </gmd:postalCode>
+               <gmd:country gco:nilReason="missing">
+                 
+               </gmd:country>
+               <gmd:electronicMailAddress>
+                 <gco:CharacterString>John.Jediny@hq.doe.gov</gco:CharacterString>
+               </gmd:electronicMailAddress>
+             </gmd:CI_Address>
+           </gmd:address>
+           
+         </gmd:CI_Contact>
+       </gmd:contactInfo>
+       <gmd:role>
+         <gmd:CI_RoleCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+       </gmd:role>
+     </gmd:CI_ResponsibleParty>
+   </gmd:contact> 
+   <gmd:dateStamp>
+     <gco:DateTime>2014-06-09T22:45:46Z</gco:DateTime>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+     <gco:CharacterString>ISO 19115:2003 - Geographic information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+     <gco:CharacterString>ISO 19115:2003</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo/>
+   <gmd:referenceSystemInfo>
+     <gmd:MD_ReferenceSystem>
+       <gmd:referenceSystemIdentifier>
+         <gmd:RS_Identifier>
+           <gmd:code>
+             <gco:CharacterString>4326</gco:CharacterString>
+           </gmd:code>
+           <gmd:codeSpace>
+             <gco:CharacterString>EPSG</gco:CharacterString>
+           </gmd:codeSpace>
+           <gmd:version>
+             <gco:CharacterString>6.11</gco:CharacterString>
+           </gmd:version>
+         </gmd:RS_Identifier>
+       </gmd:referenceSystemIdentifier>
+     </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+   <gmd:identificationInfo>
+     <gmd:MD_DataIdentification>
+       <gmd:citation>
+         <gmd:CI_Citation>
+           <gmd:title>
+             <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL)</gco:CharacterString>
+           </gmd:title>
+           <gmd:date>
+             <gmd:CI_Date>
+               <gmd:date>
+                 <gco:DateTime>2014-06-09T22:45:46Z</gco:DateTime>
+               </gmd:date>
+               <gmd:dateType>
+                 <gmd:CI_DateTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+               </gmd:dateType>
+             </gmd:CI_Date>
+           </gmd:date>
+           <gmd:edition gco:nilReason="missing">
+                 
+           </gmd:edition>
+           <gmd:presentationForm>
+             <gmd:CI_PresentationFormCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+           </gmd:presentationForm>
+         </gmd:CI_Citation>
+       </gmd:citation>
+       <gmd:abstract>
+         <gco:CharacterString>Maps of estimated water use (2005), population density, housing density, precipitation, and potential evapotranspiration per 8-digit Hydrologic Unit Code (HUC08) were created as apart of the DOE/ORNL NSD Resource Assessment (http://nhaap.ornl.gov/nsd).</gco:CharacterString>
+       </gmd:abstract>
+       <gmd:purpose>
+             <gco:CharacterString>Maps of estimated water use (2005), population density, housing density, precipitation, and potential evapotranspiration per 8-digit Hydrologic Unit Code (HUC08) were created as apart of the DOE/ORNL NSD Resource Assessment (http://nhaap.ornl.gov/nsd). Descriptions of data are provided in Hadjerioua et al (2013), An Assessment of Energy Potential from New Stream-reach Development in the United States, Initial Report on Methodology. Report ORNL/TM-2012/298. January 2013.</gco:CharacterString>
+       </gmd:purpose>
+       <gmd:status>
+         <gmd:MD_ProgressCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+       </gmd:status>
+       
+       <gmd:graphicOverview>
+         <gmd:MD_BrowseGraphic>
+           <gmd:fileName>
+             <gco:CharacterString>http://nepanode.anl.gov/uploaded/thumbs/layer-b3a64b38-f051-11e3-843a-0edf278dde01-thumb.png</gco:CharacterString>
+           </gmd:fileName>
+           <gmd:fileDescription>
+             <gco:CharacterString>Thumbnail for 'Water Usage by Watershed - 2005 Water Use Estimates (ORNL)'</gco:CharacterString>
+           </gmd:fileDescription>
+           <gmd:fileType>
+             <gco:CharacterString>image/png</gco:CharacterString>
+           </gmd:fileType>
+         </gmd:MD_BrowseGraphic>
+       </gmd:graphicOverview>
+       <gmd:resourceFormat>
+         <gmd:MD_Format>
+           <gmd:name>
+             
+             <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+             
+           </gmd:name>
+           <gmd:version>
+             <gco:CharacterString>1.0</gco:CharacterString>
+           </gmd:version>
+         </gmd:MD_Format>
+       </gmd:resourceFormat>
+       
+       <gmd:descriptiveKeywords>
+         <gmd:MD_Keywords>
+           
+           <gmd:keyword>
+             <gco:CharacterString>Water Use</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>Watershed</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>Water</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+         </gmd:MD_Keywords>
+       </gmd:descriptiveKeywords>
+       
+       
+       
+       
+       <gmd:resourceConstraints>
+         <gmd:MD_LegalConstraints>
+           <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue=""/>
+           </gmd:useConstraints>
+           <gmd:otherConstraints>
+             <gco:CharacterString>The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. ORNL should be acknowledged using the citation above as the data source in products derived from these data. Data and methods are described by Hadjerioua et al (2013) in dataset description above.</gco:CharacterString>
+           </gmd:otherConstraints>
+         </gmd:MD_LegalConstraints>
+       </gmd:resourceConstraints>
+       <gmd:spatialRepresentationType>
+         <gmd:MD_SpatialRepresentationTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue=""/>
+       </gmd:spatialRepresentationType>
+       <gmd:language>
+         <gco:CharacterString>eng</gco:CharacterString>
+       </gmd:language>
+       <gmd:characterSet>
+         <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+       </gmd:characterSet>
+       <gmd:topicCategory>
+         
+         <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+         
+       </gmd:topicCategory>
+       <gmd:extent>
+         <gmd:EX_Extent>
+           <gmd:geographicElement>
+             <gmd:EX_GeographicBoundingBox>
+               <gmd:westBoundLongitude>
+                 <gco:Decimal>-253.599525584818</gco:Decimal>
+               </gmd:westBoundLongitude>
+               <gmd:eastBoundLongitude>
+                 <gco:Decimal>254.25387282798204</gco:Decimal>
+               </gmd:eastBoundLongitude>
+               <gmd:southBoundLatitude>
+                 <gco:Decimal>-145.90850523487157</gco:Decimal>
+               </gmd:southBoundLatitude>
+               <gmd:northBoundLatitude>
+                 <gco:Decimal>234.98154357472842</gco:Decimal>
+               </gmd:northBoundLatitude>
+             </gmd:EX_GeographicBoundingBox>
+           </gmd:geographicElement>
+         </gmd:EX_Extent>
+       </gmd:extent>
+       
+       <gmd:supplementalInformation>
+         <gco:CharacterString>Descriptions of data are provided in Hadjerioua et al (2013), An Assessment of Energy Potential from New Stream-reach Development in the United States, Initial Report on Methodology. Report ORNL/TM-2012/298. January 2013.Water use estimates (2005) per county were obtained from USGS: Kenny, J.F., Barber, N.L., Hutson, S.S., Linsey, K.S., Lovelace, J.K., and Maupin, M.A., 2009, Estimated use of water in the United States in 2005: U.S. Geological Survey Circular 1344, 52 p.(http://pubs.usgs.gov/circ/1344/). County level shapefiles and population density was obtained through the US Census Bureau (http://www.census.gov/geo/maps-data/data/tiger.html). Water use estimates were joined to county shapefiles through common county identifier. Water use was summarized by 8-digit Hydrologic unit codes using area-weighted averages of county-level data [Spatial Analyst (zonal statistics as table)]. Population density was obtained through the US Census Bureau (http://www.census.gov/geo/maps-data/data/tiger.html). Popluation density was summarized by 8-digit Hydrologic unit codes using area-weighted averages of county-level data [Spatial Analyst (zonal statistics as table)]. Precipitation and potential evapotranspiration per 12-digit HUC was obtained from Wollock, D. (2003) Hydrologic landscape regions of the United States, US Geological Survey Open-File Report 03-145, Reston, VA: http://water.usgs.gov/GIS/metadata/usgswrd/XML/hlrus.xml. Precipitation was summarized by aggregating 12-digit hydrologic units into 8-digit hydrologic units.
+
+Funding and support for the Oak Ridge National Laboratory (ORNL) Instream Flow Project and New Stream-reach Development (NSD) Resource Assessment were provided by the Department of Energy (DOE) Office of Energy Efficiency and Renewable Energy (EERE) Water Power Program. Support from the U.S. Army Corps of Engineers (USACE), Bureau of Reclamation (Reclamation), U.S. Geological Survey (USGS), National Hydropower Association (NHA), and external reviewers are crucial and deeply appreciated.</gco:CharacterString>
+       </gmd:supplementalInformation>
+     </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+     <gmd:MD_Distribution>
+       <gmd:transferOptions>
+         <gmd:MD_DigitalTransferOptions>
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                   <gmd:URL>http://nepanode.anl.gov/layers/geonode%3Ahuc8_wateruse_ornl_2013_totaluse</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:description>
+                 <gco:CharacterString>Online link to the 'Water Usage by Watershed - 2005 Water Use Estimates (ORNL)' description on GeoNode</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;width=733&amp;bbox=-253.599525584818%2C-145.90850523487157%2C254.25387282798204%2C234.98154357472842&amp;service=WMS&amp;format=image%2Fjpeg&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.jpg</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (JPEG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;width=733&amp;bbox=-253.599525584818%2C-145.90850523487157%2C254.25387282798204%2C234.98154357472842&amp;service=WMS&amp;format=application%2Fpdf&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.pdf</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (PDF Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;width=733&amp;bbox=-253.599525584818%2C-145.90850523487157%2C254.25387282798204%2C234.98154357472842&amp;service=WMS&amp;format=image%2Fpng&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (PNG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?format_options=charset%3AUTF-8&amp;typename=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;outputFormat=SHAPE-ZIP&amp;version=1.0.0&amp;service=WFS&amp;request=GetFeature</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.zip</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (Zipped Shapefile Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;outputFormat=gml2&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.gml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (GML 2.0 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.gml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (GML 3.1.1 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;outputFormat=csv&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.csv</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (CSV Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;outputFormat=excel&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.excel</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (Excel Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?srsName=EPSG%3A4326&amp;typename=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;outputFormat=json&amp;version=1.0.0&amp;service=WFS&amp;request=GetFeature</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.json</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (GeoJSON Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;mode=download</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.kml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (KML Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Ahuc8_wateruse_ornl_2013_totaluse&amp;mode=refresh</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.kml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (View in Google Earth Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/gwc/service/gmaps?layers=geonode:huc8_wateruse_ornl_2013_totaluse&amp;zoom={z}&amp;x={x}&amp;y={y}&amp;format=image/png8</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.tiles</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (Tiles Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/reflect?layers=geonode:huc8_wateruse_ornl_2013_totaluse&amp;width=200&amp;height=150&amp;format=image/png8</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (Remote Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/uploaded/thumbs/layer-b3a64b38-f051-11e3-843a-0edf278dde01-thumb.png</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?request=GetLegendGraphic&amp;format=image/png&amp;WIDTH=20&amp;HEIGHT=20&amp;LAYER=geonode:huc8_wateruse_ornl_2013_totaluse&amp;legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>huc8_wateruse_ornl_2013_totaluse.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Water Usage by Watershed - 2005 Water Use Estimates (ORNL) (Legend Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/geonode/wms</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WMS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>OGC:WMS geonode Service - Provides Layer: Water Usage by Watershed - 2005 Water Use Estimates (ORNL)</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>OGC WMS: geonode Service Root Endpoint.  This service contains the Water Usage by Watershed - 2005 Water Use Estimates (ORNL) layer.</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/geonode/wfs</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WFS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>OGC:WFS geonode Service - Provides Layer: Water Usage by Watershed - 2005 Water Use Estimates (ORNL)</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>OGC WFS: geonode Service Root Endpoint.  This service contains the Water Usage by Watershed - 2005 Water Use Estimates (ORNL) layer.</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+         </gmd:MD_DigitalTransferOptions>
+       </gmd:transferOptions>
+     </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+     <gmd:DQ_DataQuality>
+       <gmd:scope>
+         <gmd:DQ_Scope>
+           <gmd:level>
+             <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+           </gmd:level>
+         </gmd:DQ_Scope>
+       </gmd:scope>
+       <gmd:lineage>
+         <gmd:LI_Lineage>
+           <gmd:statement gco:nilReason="missing"/>
+         </gmd:LI_Lineage>
+       </gmd:lineage>
+     </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+ </gmd:MD_Metadata>

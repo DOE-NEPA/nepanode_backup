@@ -1,0 +1,593 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dct="http://purl.org/dc/terms/" xmlns:ows="http://www.opengis.net/ows" xmlns:apiso="http://www.opengis.net/cat/csw/apiso/1.0" xmlns:gml="http://www.opengis.net/gml" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:ogc="http://www.opengis.net/ogc" xmlns:fgdc="http://www.opengis.net/cat/csw/csdgm" xmlns:inspire_ds="http://inspire.ec.europa.eu/schemas/inspire_ds/1.0" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:os="http://a9.com/-/spec/opensearch/1.1/" xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:wrs="http://www.opengis.net/cat/wrs/1.0" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+   <gmd:fileIdentifier>
+     <gco:CharacterString>d425b602-48c9-11e4-8499-0edf278dde01</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+     <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+     <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact> 
+     <gmd:CI_ResponsibleParty>
+       <gmd:individualName gco:nilReason="missing">
+         
+       </gmd:individualName>
+       <gmd:organisationName gco:nilReason="missing">
+         
+       </gmd:organisationName>
+       <gmd:positionName gco:nilReason="missing">
+         
+       </gmd:positionName>
+       <gmd:contactInfo>
+         <gmd:CI_Contact>
+           <gmd:phone>
+             <gmd:CI_Telephone>
+               <gmd:voice gco:nilReason="missing">
+                 
+               </gmd:voice>
+               <gmd:facsimile gco:nilReason="missing">
+                 
+               </gmd:facsimile>
+             </gmd:CI_Telephone>
+           </gmd:phone>
+           <gmd:address>
+             <gmd:CI_Address>
+               <gmd:deliveryPoint gco:nilReason="missing">
+                 
+               </gmd:deliveryPoint>
+               <gmd:city gco:nilReason="missing">
+                 
+               </gmd:city>
+               <gmd:administrativeArea gco:nilReason="missing">
+                 
+               </gmd:administrativeArea>
+               <gmd:postalCode gco:nilReason="missing">
+                 
+               </gmd:postalCode>
+               <gmd:country gco:nilReason="missing">
+                 
+               </gmd:country>
+               <gmd:electronicMailAddress>
+                 <gco:CharacterString>rollins@anl.gov</gco:CharacterString>
+               </gmd:electronicMailAddress>
+             </gmd:CI_Address>
+           </gmd:address>
+           
+         </gmd:CI_Contact>
+       </gmd:contactInfo>
+       <gmd:role>
+         <gmd:CI_RoleCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+       </gmd:role>
+     </gmd:CI_ResponsibleParty>
+   </gmd:contact> 
+   <gmd:dateStamp>
+     <gco:DateTime>2014-09-30T12:47:21Z</gco:DateTime>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+     <gco:CharacterString>ISO 19115:2003 - Geographic information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+     <gco:CharacterString>ISO 19115:2003</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo/>
+   <gmd:referenceSystemInfo>
+     <gmd:MD_ReferenceSystem>
+       <gmd:referenceSystemIdentifier>
+         <gmd:RS_Identifier>
+           <gmd:code>
+             <gco:CharacterString>4326</gco:CharacterString>
+           </gmd:code>
+           <gmd:codeSpace>
+             <gco:CharacterString>EPSG</gco:CharacterString>
+           </gmd:codeSpace>
+           <gmd:version>
+             <gco:CharacterString>6.11</gco:CharacterString>
+           </gmd:version>
+         </gmd:RS_Identifier>
+       </gmd:referenceSystemIdentifier>
+     </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+   <gmd:identificationInfo>
+     <gmd:MD_DataIdentification>
+       <gmd:citation>
+         <gmd:CI_Citation>
+           <gmd:title>
+             <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA]</gco:CharacterString>
+           </gmd:title>
+           <gmd:date>
+             <gmd:CI_Date>
+               <gmd:date>
+                 <gco:DateTime>2014-09-30T12:47:21Z</gco:DateTime>
+               </gmd:date>
+               <gmd:dateType>
+                 <gmd:CI_DateTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+               </gmd:dateType>
+             </gmd:CI_Date>
+           </gmd:date>
+           <gmd:edition>
+                 <gco:CharacterString>8/4/14</gco:CharacterString>
+           </gmd:edition>
+           <gmd:presentationForm>
+             <gmd:CI_PresentationFormCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+           </gmd:presentationForm>
+         </gmd:CI_Citation>
+       </gmd:citation>
+       <gmd:abstract>
+         <gco:CharacterString>Under Section 303(d) of the Clean Water Act (CWA), states, territories, and authorized tribes, collectively referred to in the Act and here as "states," are required to develop lists of impaired waters. A state&#8217;s 303(d) impaired waters list is comprised of all waters where required pollution controls are not sufficient to attain or maintain applicable water quality standards. The law requires that states establish priority rankings for waters on the lists and develop Total Maximum Daily Loads (TMDLs). A TMDL is a calculation of the maximum amount of a pollutant that a waterbody can receive and still meet water quality standards, and an allocation of the load reduction needed from various sources of the pollutant.</gco:CharacterString>
+       </gmd:abstract>
+       <gmd:purpose>
+             <gco:CharacterString>The data can be used to identify the distribution of impaired waters with a TMDL within each state for pollutants of interest. The attribute information provided (e.g., TMDL pollutant, location, waterbody name) can be associated with the geospatial information (TMDLs on Impaired Waters NHD Indexed Dataset found at http://water.epa.gov/scitech/datait/tools/waters/data/downloads.cfm). The attribute information can be viewed via ATTAINS available at http://www.epa.gov/waters/ir or downloaded via the AskWATERS Expert Query available at http://iaspub.epa.gov/pls/waters/f?p=ASKWATERS:MAIN_MENU. Please note that a water can be identified on a State&#8217;s 303(d) list as impaired for more than one cause of impairment and be identified as having more than one probable source. EPA considers TMDLs as water/pollutant combinations, please be mindful of this information when aggregating the attributes for analysis needs.</gco:CharacterString>
+       </gmd:purpose>
+       <gmd:status>
+         <gmd:MD_ProgressCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+       </gmd:status>
+       
+       <gmd:graphicOverview>
+         <gmd:MD_BrowseGraphic>
+           <gmd:fileName>
+             <gco:CharacterString>http://nepanode.anl.gov/uploaded/thumbs/layer-d425b602-48c9-11e4-8499-0edf278dde01-thumb.png</gco:CharacterString>
+           </gmd:fileName>
+           <gmd:fileDescription>
+             <gco:CharacterString>Thumbnail for 'Total Maximum Daily Load (TMDL) - CWA [EPA]'</gco:CharacterString>
+           </gmd:fileDescription>
+           <gmd:fileType>
+             <gco:CharacterString>image/png</gco:CharacterString>
+           </gmd:fileType>
+         </gmd:MD_BrowseGraphic>
+       </gmd:graphicOverview>
+       <gmd:resourceFormat>
+         <gmd:MD_Format>
+           <gmd:name>
+             
+             <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+             
+           </gmd:name>
+           <gmd:version>
+             <gco:CharacterString>1.0</gco:CharacterString>
+           </gmd:version>
+         </gmd:MD_Format>
+       </gmd:resourceFormat>
+       
+       <gmd:descriptiveKeywords>
+         <gmd:MD_Keywords>
+           
+           <gmd:keyword>
+             <gco:CharacterString>Stream</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>impaired waters</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>CWA</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>reach</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>TMDLs</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>TMDL</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>listed waters</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>point source</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>total maximum daily loads</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>EPA</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>303d</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>clean water act</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+         </gmd:MD_Keywords>
+       </gmd:descriptiveKeywords>
+       
+       
+       
+       
+       <gmd:resourceConstraints>
+         <gmd:MD_LegalConstraints>
+           <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue=""/>
+           </gmd:useConstraints>
+           <gmd:otherConstraints>
+             <gco:CharacterString/>
+           </gmd:otherConstraints>
+         </gmd:MD_LegalConstraints>
+       </gmd:resourceConstraints>
+       <gmd:spatialRepresentationType>
+         <gmd:MD_SpatialRepresentationTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue=""/>
+       </gmd:spatialRepresentationType>
+       <gmd:language>
+         <gco:CharacterString>eng</gco:CharacterString>
+       </gmd:language>
+       <gmd:characterSet>
+         <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+       </gmd:characterSet>
+       <gmd:topicCategory>
+         
+         <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+         
+       </gmd:topicCategory>
+       <gmd:extent>
+         <gmd:EX_Extent>
+           <gmd:geographicElement>
+             <gmd:EX_GeographicBoundingBox>
+               <gmd:westBoundLongitude>
+                 <gco:Decimal>-157.979274794414</gco:Decimal>
+               </gmd:westBoundLongitude>
+               <gmd:eastBoundLongitude>
+                 <gco:Decimal>-64.6969025813943</gco:Decimal>
+               </gmd:eastBoundLongitude>
+               <gmd:southBoundLatitude>
+                 <gco:Decimal>17.7457084666801</gco:Decimal>
+               </gmd:southBoundLatitude>
+               <gmd:northBoundLatitude>
+                 <gco:Decimal>61.5554925710745</gco:Decimal>
+               </gmd:northBoundLatitude>
+             </gmd:EX_GeographicBoundingBox>
+           </gmd:geographicElement>
+         </gmd:EX_Extent>
+       </gmd:extent>
+       
+       <gmd:supplementalInformation>
+         <gco:CharacterString>No information provided</gco:CharacterString>
+       </gmd:supplementalInformation>
+     </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+     <gmd:MD_Distribution>
+       <gmd:transferOptions>
+         <gmd:MD_DigitalTransferOptions>
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                   <gmd:URL>http://nepanode.anl.gov/layers/geonode%3Aow_tmdl_2014</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:description>
+                 <gco:CharacterString>Online link to the 'Total Maximum Daily Load (TMDL) - CWA [EPA]' description on GeoNode</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Aow_tmdl_2014&amp;width=1171&amp;bbox=-157.979274794414%2C17.7457084666801%2C-64.6969025813943%2C61.5554925710745&amp;service=WMS&amp;format=image%2Fjpeg&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.jpg</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (JPEG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Aow_tmdl_2014&amp;width=1171&amp;bbox=-157.979274794414%2C17.7457084666801%2C-64.6969025813943%2C61.5554925710745&amp;service=WMS&amp;format=application%2Fpdf&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.pdf</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (PDF Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Aow_tmdl_2014&amp;width=1171&amp;bbox=-157.979274794414%2C17.7457084666801%2C-64.6969025813943%2C61.5554925710745&amp;service=WMS&amp;format=image%2Fpng&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (PNG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?format_options=charset%3AUTF-8&amp;typename=geonode%3Aow_tmdl_2014&amp;outputFormat=SHAPE-ZIP&amp;version=1.0.0&amp;service=WFS&amp;request=GetFeature</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.zip</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (Zipped Shapefile Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Aow_tmdl_2014&amp;outputFormat=gml2&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.gml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (GML 2.0 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Aow_tmdl_2014&amp;outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.gml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (GML 3.1.1 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Aow_tmdl_2014&amp;outputFormat=csv&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.csv</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (CSV Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Aow_tmdl_2014&amp;outputFormat=excel&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.excel</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (Excel Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wfs?srsName=EPSG%3A4326&amp;typename=geonode%3Aow_tmdl_2014&amp;outputFormat=json&amp;version=1.0.0&amp;service=WFS&amp;request=GetFeature</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.json</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (GeoJSON Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Aow_tmdl_2014&amp;mode=download</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.kml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (KML Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Aow_tmdl_2014&amp;mode=refresh</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.kml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (View in Google Earth Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/gwc/service/gmaps?layers=geonode:ow_tmdl_2014&amp;zoom={z}&amp;x={x}&amp;y={y}&amp;format=image/png8</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.tiles</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (Tiles Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/reflect?layers=geonode:ow_tmdl_2014&amp;width=200&amp;height=150&amp;format=image/png8</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (Remote Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/uploaded/thumbs/layer-d425b602-48c9-11e4-8499-0edf278dde01-thumb.png</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?request=GetLegendGraphic&amp;format=image/png&amp;WIDTH=20&amp;HEIGHT=20&amp;LAYER=geonode:ow_tmdl_2014&amp;legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>ow_tmdl_2014.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Total Maximum Daily Load (TMDL) - CWA [EPA] (Legend Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/geonode/wms</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WMS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>OGC:WMS geonode Service - Provides Layer: Total Maximum Daily Load (TMDL) - CWA [EPA]</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>OGC WMS: geonode Service Root Endpoint.  This service contains the Total Maximum Daily Load (TMDL) - CWA [EPA] layer.</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/geonode/wfs</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WFS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>OGC:WFS geonode Service - Provides Layer: Total Maximum Daily Load (TMDL) - CWA [EPA]</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>OGC WFS: geonode Service Root Endpoint.  This service contains the Total Maximum Daily Load (TMDL) - CWA [EPA] layer.</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+         </gmd:MD_DigitalTransferOptions>
+       </gmd:transferOptions>
+     </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+     <gmd:DQ_DataQuality>
+       <gmd:scope>
+         <gmd:DQ_Scope>
+           <gmd:level>
+             <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+           </gmd:level>
+         </gmd:DQ_Scope>
+       </gmd:scope>
+       <gmd:lineage>
+         <gmd:LI_Lineage>
+           <gmd:statement gco:nilReason="missing"/>
+         </gmd:LI_Lineage>
+       </gmd:lineage>
+     </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+ </gmd:MD_Metadata>

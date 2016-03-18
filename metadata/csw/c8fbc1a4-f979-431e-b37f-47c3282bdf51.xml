@@ -1,0 +1,532 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dct="http://purl.org/dc/terms/" xmlns:ows="http://www.opengis.net/ows" xmlns:apiso="http://www.opengis.net/cat/csw/apiso/1.0" xmlns:gml="http://www.opengis.net/gml" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:ogc="http://www.opengis.net/ogc" xmlns:fgdc="http://www.opengis.net/cat/csw/csdgm" xmlns:inspire_ds="http://inspire.ec.europa.eu/schemas/inspire_ds/1.0" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:os="http://a9.com/-/spec/opensearch/1.1/" xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:wrs="http://www.opengis.net/cat/wrs/1.0" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+   <gmd:fileIdentifier>
+     <gco:CharacterString>bbb97790-df18-11e3-8367-0edf278dde01</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+     <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+     <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact> 
+     <gmd:CI_ResponsibleParty>
+       <gmd:individualName gco:nilReason="missing">
+         
+       </gmd:individualName>
+       <gmd:organisationName>
+          <gco:CharacterString>Office of NEPA Policy and Compliance (GC-54)</gco:CharacterString> 
+       </gmd:organisationName>
+       <gmd:positionName>
+         <gco:CharacterString>Environmental Protection Specialist &amp; NEPAnode Project Manager</gco:CharacterString> 
+       </gmd:positionName>
+       <gmd:contactInfo>
+         <gmd:CI_Contact>
+           <gmd:phone>
+             <gmd:CI_Telephone>
+               <gmd:voice>
+                 <gco:CharacterString>973-931-0580</gco:CharacterString>
+               </gmd:voice>
+               <gmd:facsimile gco:nilReason="missing">
+                 
+               </gmd:facsimile>
+             </gmd:CI_Telephone>
+           </gmd:phone>
+           <gmd:address>
+             <gmd:CI_Address>
+               <gmd:deliveryPoint gco:nilReason="missing">
+                 
+               </gmd:deliveryPoint>
+               <gmd:city gco:nilReason="missing">
+                 
+               </gmd:city>
+               <gmd:administrativeArea gco:nilReason="missing">
+                 
+               </gmd:administrativeArea>
+               <gmd:postalCode gco:nilReason="missing">
+                 
+               </gmd:postalCode>
+               <gmd:country gco:nilReason="missing">
+                 
+               </gmd:country>
+               <gmd:electronicMailAddress>
+                 <gco:CharacterString>John.Jediny@hq.doe.gov</gco:CharacterString>
+               </gmd:electronicMailAddress>
+             </gmd:CI_Address>
+           </gmd:address>
+           
+         </gmd:CI_Contact>
+       </gmd:contactInfo>
+       <gmd:role>
+         <gmd:CI_RoleCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+       </gmd:role>
+     </gmd:CI_ResponsibleParty>
+   </gmd:contact> 
+   <gmd:dateStamp>
+     <gco:DateTime>2014-05-18T19:00:00Z</gco:DateTime>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+     <gco:CharacterString>ISO 19115:2003 - Geographic information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+     <gco:CharacterString>ISO 19115:2003</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo/>
+   <gmd:referenceSystemInfo>
+     <gmd:MD_ReferenceSystem>
+       <gmd:referenceSystemIdentifier>
+         <gmd:RS_Identifier>
+           <gmd:code>
+             <gco:CharacterString>4326</gco:CharacterString>
+           </gmd:code>
+           <gmd:codeSpace>
+             <gco:CharacterString>EPSG</gco:CharacterString>
+           </gmd:codeSpace>
+           <gmd:version>
+             <gco:CharacterString>6.11</gco:CharacterString>
+           </gmd:version>
+         </gmd:RS_Identifier>
+       </gmd:referenceSystemIdentifier>
+     </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+   <gmd:identificationInfo>
+     <gmd:MD_DataIdentification>
+       <gmd:citation>
+         <gmd:CI_Citation>
+           <gmd:title>
+             <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid)</gco:CharacterString>
+           </gmd:title>
+           <gmd:date>
+             <gmd:CI_Date>
+               <gmd:date>
+                 <gco:DateTime>2014-05-18T19:00:00Z</gco:DateTime>
+               </gmd:date>
+               <gmd:dateType>
+                 <gmd:CI_DateTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+               </gmd:dateType>
+             </gmd:CI_Date>
+           </gmd:date>
+           <gmd:edition>
+                 <gco:CharacterString>v2012</gco:CharacterString>
+           </gmd:edition>
+           <gmd:presentationForm>
+             <gmd:CI_PresentationFormCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+           </gmd:presentationForm>
+         </gmd:CI_Citation>
+       </gmd:citation>
+       <gmd:abstract>
+         <gco:CharacterString>The wildland fire potential (WFP) map is a raster geospatial product produced by the USDA Forest Service, Fire Modeling Institute that is intended to be used in analyses of wildfire risk or hazardous fuels prioritization at large landscapes (100s of square miles) up through regional or national scales.</gco:CharacterString>
+       </gmd:abstract>
+       <gmd:purpose>
+             <gco:CharacterString>This dataset is the classified WFP. It is intended for use in strategic wildland fire planning and land management planning at mostly regional to national scales. We have classified continuous WFP values into very low, low, moderate, high, and very high WFP classes, with national wildland fire and fuels planning objectives in mind.</gco:CharacterString>
+       </gmd:purpose>
+       <gmd:status>
+         <gmd:MD_ProgressCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+       </gmd:status>
+       
+       <gmd:graphicOverview>
+         <gmd:MD_BrowseGraphic>
+           <gmd:fileName>
+             <gco:CharacterString>http://nepanode.anl.gov/uploaded/thumbs/layer-bbb97790-df18-11e3-8367-0edf278dde01-thumb.png</gco:CharacterString>
+           </gmd:fileName>
+           <gmd:fileDescription>
+             <gco:CharacterString>Thumbnail for 'Wildland Fire Potential (WFP) CONUS (270 Meter Grid)'</gco:CharacterString>
+           </gmd:fileDescription>
+           <gmd:fileType>
+             <gco:CharacterString>image/png</gco:CharacterString>
+           </gmd:fileType>
+         </gmd:MD_BrowseGraphic>
+       </gmd:graphicOverview>
+       <gmd:resourceFormat>
+         <gmd:MD_Format>
+           <gmd:name>
+             
+             <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+             
+           </gmd:name>
+           <gmd:version>
+             <gco:CharacterString>1.0</gco:CharacterString>
+           </gmd:version>
+         </gmd:MD_Format>
+       </gmd:resourceFormat>
+       
+       <gmd:descriptiveKeywords>
+         <gmd:MD_Keywords>
+           
+           <gmd:keyword>
+             <gco:CharacterString>Fire</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>Fire Risk</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:keyword>
+             <gco:CharacterString>Natural Hazards</gco:CharacterString>
+           </gmd:keyword>
+           
+           <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+         </gmd:MD_Keywords>
+       </gmd:descriptiveKeywords>
+       
+       
+       
+       
+       <gmd:resourceConstraints>
+         <gmd:MD_LegalConstraints>
+           <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue=""/>
+           </gmd:useConstraints>
+           <gmd:otherConstraints>
+             <gco:CharacterString>This dataset is the product of modeling, and as such carries an inherent degree of error and uncertainty. Users must read and fully comprehend the metadata and other available documentation prior to data use. Users should acknowledge the Originator when using this dataset as a source. Users should share data products developed using the source dataset with the Originator. No warranty is made by the Fire Modeling Institute (FMI) or USDA Forest Service as to the accuracy, reliability, or completeness of these data for individual use or aggregate use with other data, or for purposes not intended by FMI. Inputs to the WFP map, and therefore the WFP map as well, are intended to support 1) national (all states) strategic planning, 2) regional (single large states or groups of smaller states) planning, and 3) strategic and possibly tactical planning for large sub-regional landscapes and Fire Planning Units (FPUs) (including significant portions of states or multiple federal administrative entities). The applicability of the WFP map to support fire and land management planning on smaller areas will vary by location and specific intended use. Further investigation by local and regional experts should be conducted to inform decisions regarding local applicability. It is the sole responsibility of the local user, using product metadata and local knowledge, to determine if and/or how the WFP map can be used for particular areas of interest. The WFP map is not intended to replace local products where they exist, but rather serve as a back-up by providing wall-to-wall cross-boundary data coverage. It is the responsibility of the user to be familiar with the value, assumptions, and limitations of WFP map. Managers and planners must evaluate the WFP map according to the scale and requirements specific to their needs. Spatial information may not meet National Map Accuracy Standards. This information may be updated without notification.</gco:CharacterString>
+           </gmd:otherConstraints>
+         </gmd:MD_LegalConstraints>
+       </gmd:resourceConstraints>
+       <gmd:spatialRepresentationType>
+         <gmd:MD_SpatialRepresentationTypeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue=""/>
+       </gmd:spatialRepresentationType>
+       <gmd:language>
+         <gco:CharacterString>eng</gco:CharacterString>
+       </gmd:language>
+       <gmd:characterSet>
+         <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+       </gmd:characterSet>
+       <gmd:topicCategory>
+         
+         <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+         
+       </gmd:topicCategory>
+       <gmd:extent>
+         <gmd:EX_Extent>
+           <gmd:geographicElement>
+             <gmd:EX_GeographicBoundingBox>
+               <gmd:westBoundLongitude>
+                 <gco:Decimal>-127.94850180901096</gco:Decimal>
+               </gmd:westBoundLongitude>
+               <gmd:eastBoundLongitude>
+                 <gco:Decimal>-65.29636825133588</gco:Decimal>
+               </gmd:eastBoundLongitude>
+               <gmd:southBoundLatitude>
+                 <gco:Decimal>22.76981260981939</gco:Decimal>
+               </gmd:southBoundLatitude>
+               <gmd:northBoundLatitude>
+                 <gco:Decimal>51.57903035684651</gco:Decimal>
+               </gmd:northBoundLatitude>
+             </gmd:EX_GeographicBoundingBox>
+           </gmd:geographicElement>
+         </gmd:EX_Extent>
+       </gmd:extent>
+       
+       <gmd:supplementalInformation>
+         <gco:CharacterString>The WFP map builds upon, and integrates, estimates of burn probability (BP) and conditional probabilities of fire intensity levels (FILs) generated for the national interagency Fire Program Analysis system (FPA) using a simulation modeling system called the Large Fire Simulator (FSim; Finney et al. 2011). The specific objective of the 2012 WFP map is to depict the relative potential for wildfire that would be difficult for suppression resources to contain, based on past fire occurrence, 2008 fuels data from LANDFIRE, and 2012 estimates of wildfire likelihood and intensity from FSim. Areas with higher WFP values, therefore, represent fuels with a higher probability of experiencing high-intensity fire with torching, crowning, and other forms of extreme fire behavior under conducive weather conditions.
+
+Using the FPA FSim products as inputs, as well as spatial data for vegetation and fuels characteristics from LANDFIRE and point locations of fire occurrence from FPA (ca. 1992 - 2010), we used a logical series of geospatial processing steps to produce an index of WFP for all of the conterminous United States at 270m resolution. The final WFP map is presented here in two forms: 1) continuous integer values, and 2) classified into five WFP classes of very low, low, moderate, high, and very high. We don't intend for the WFP map to take the place of any of the FSim products; rather, we hope that it provides a useful addition to the information available to managers, policy makers, and scientists interested in wildland fire risk analysis in the United States. On its own, WFP does not provide an explicit map of wildfire threat or risk, because no information on the effects of wildfire on specific values such as habitats, structures or infrastructure is incorporated in its development. However, the WFP map could be used to create value-specific risk maps when paired with spatial data depicting highly valued resources (Thompson et al. 2011). It is important to note that the WFP is also not a forecast or wildfire outlook for any particular season, as it does not include any information on current or forecasted weather or fuel moisture conditions. It is instead intended for long-term strategic planning and fuels management.
+To check for the latest version of the WFP geospatial data and map graphics, as well as documentation on the mapping process, see:  http://www.firelab.org/fmi/data-products/229-wildland-fire-potential-wfp
+
+For a technical overview of the Fire Simulation (FSim) system developed by the US Forest Service Missoula Fire Sciences Laboratory to estimate probabilistic components of wildfire risk see: 
+Finney, M. A., C. W. McHugh, I. C. Grenfell, K. L. Riley, and K. C. Short. 2011. A Simulation of Probabilistic Wildfire Risk Components for the Continental United States. Stochastic Environmental Research and Risk Assessment 25:973-1000.
+
+The utility of the calibrated FSim BP and FIL data for quantitative geospatial wildfire risk assessment is detailed in a companion paper: 
+Thompson, M. P., D. E. Calkin, M. A. Finney, A. A. Ager, and J. W. Gilbertson-Day. 2011. Integrated National-Scale Assessment of Wildfire Risk to Human and Ecological Values. Stochastic Environmental Research and Risk Assessment 25:761-780.</gco:CharacterString>
+       </gmd:supplementalInformation>
+     </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+     <gmd:MD_Distribution>
+       <gmd:transferOptions>
+         <gmd:MD_DigitalTransferOptions>
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                   <gmd:URL>http://nepanode.anl.gov/layers/geonode%3Awildland_fire_pot_usgs_2012</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:description>
+                 <gco:CharacterString>Online link to the 'Wildland Fire Potential (WFP) CONUS (270 Meter Grid)' description on GeoNode</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/uploaded/thumbs/layer-bbb97790-df18-11e3-8367-0edf278dde01-thumb.png</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Awildland_fire_pot_usgs_2012&amp;width=1196&amp;bbox=-127.94850180901096%2C22.76981260981939%2C-65.29636825133588%2C51.57903035684651&amp;service=WMS&amp;format=image%2Fjpeg&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.jpg</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (JPEG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Awildland_fire_pot_usgs_2012&amp;width=1196&amp;bbox=-127.94850180901096%2C22.76981260981939%2C-65.29636825133588%2C51.57903035684651&amp;service=WMS&amp;format=application%2Fpdf&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.pdf</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (PDF Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Awildland_fire_pot_usgs_2012&amp;width=1196&amp;bbox=-127.94850180901096%2C22.76981260981939%2C-65.29636825133588%2C51.57903035684651&amp;service=WMS&amp;format=image%2Fpng&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (PNG Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov:80/geoserver/wcs?crs=EPSG%3A4326&amp;service=WCS&amp;format=ArcGrid&amp;request=GetCoverage&amp;height=11879&amp;width=20545&amp;version=1.0.0&amp;BBox=-148.55580385132254%2C-44.689066209024276%2C-1.7756051325288997%2C76.12444809919481&amp;Coverage=geonode%3Awildland_fire_pot_usgs_2012</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.ArcGrid</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (ArcGrid Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov:80/geoserver/wcs?crs=EPSG%3A4326&amp;service=WCS&amp;format=GeoTIFF&amp;request=GetCoverage&amp;height=11879&amp;width=20545&amp;version=1.0.0&amp;BBox=-148.55580385132254%2C-44.689066209024276%2C-1.7756051325288997%2C76.12444809919481&amp;Coverage=geonode%3Awildland_fire_pot_usgs_2012</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.GeoTIFF</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (GeoTIFF Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov:80/geoserver/wcs?crs=EPSG%3A4326&amp;service=WCS&amp;format=Gtopo30&amp;request=GetCoverage&amp;height=11879&amp;width=20545&amp;version=1.0.0&amp;BBox=-148.55580385132254%2C-44.689066209024276%2C-1.7756051325288997%2C76.12444809919481&amp;Coverage=geonode%3Awildland_fire_pot_usgs_2012</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.Gtopo30</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (Gtopo30 Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov:80/geoserver/wcs?crs=EPSG%3A4326&amp;service=WCS&amp;format=ImageMosaic&amp;request=GetCoverage&amp;height=11879&amp;width=20545&amp;version=1.0.0&amp;BBox=-148.55580385132254%2C-44.689066209024276%2C-1.7756051325288997%2C76.12444809919481&amp;Coverage=geonode%3Awildland_fire_pot_usgs_2012</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.ImageMosaic</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (ImageMosaic Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Awildland_fire_pot_usgs_2012&amp;mode=download</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.kml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (KML Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Awildland_fire_pot_usgs_2012&amp;mode=refresh</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.kml</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (View in Google Earth Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/gwc/service/gmaps?layers=geonode:wildland_fire_pot_usgs_2012&amp;zoom={z}&amp;x={x}&amp;y={y}&amp;format=image/png8</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.tiles</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (Tiles Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms/reflect?layers=geonode:wildland_fire_pot_usgs_2012&amp;width=200&amp;height=150&amp;format=image/png8</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (Remote Thumbnail Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/wms?request=GetLegendGraphic&amp;format=image/png&amp;WIDTH=20&amp;HEIGHT=20&amp;LAYER=geonode:wildland_fire_pot_usgs_2012&amp;legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>wildland_fire_pot_usgs_2012.png</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>Wildland Fire Potential (WFP) CONUS (270 Meter Grid) (Legend Format)</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/geonode/wms</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WMS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>OGC:WMS geonode Service - Provides Layer: Wildland Fire Potential (WFP) CONUS (270 Meter Grid)</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>OGC WMS: geonode Service Root Endpoint.  This service contains the Wildland Fire Potential (WFP) CONUS (270 Meter Grid) layer.</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+           <gmd:onLine>
+             <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                 <gmd:URL>http://nepanode.anl.gov/geoserver/geonode/wcs</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                 <gco:CharacterString>OGC:WCS</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                 <gco:CharacterString>OGC:WCS geonode Service - Provides Layer: Wildland Fire Potential (WFP) CONUS (270 Meter Grid)</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                 <gco:CharacterString>OGC WCS: geonode Service Root Endpoint.  This service contains the Wildland Fire Potential (WFP) CONUS (270 Meter Grid) layer.</gco:CharacterString>
+               </gmd:description>
+             </gmd:CI_OnlineResource>
+           </gmd:onLine>
+           
+         </gmd:MD_DigitalTransferOptions>
+       </gmd:transferOptions>
+     </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+     <gmd:DQ_DataQuality>
+       <gmd:scope>
+         <gmd:DQ_Scope>
+           <gmd:level>
+             <gmd:MD_ScopeCode codeSpace="ISOTC211/19115" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+           </gmd:level>
+         </gmd:DQ_Scope>
+       </gmd:scope>
+       <gmd:lineage>
+         <gmd:LI_Lineage>
+           <gmd:statement gco:nilReason="missing"/>
+         </gmd:LI_Lineage>
+       </gmd:lineage>
+     </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+ </gmd:MD_Metadata>

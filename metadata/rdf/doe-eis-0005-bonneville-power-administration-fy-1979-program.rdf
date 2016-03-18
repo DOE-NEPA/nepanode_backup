@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+>
+  <dcat:Dataset rdf:about="http://catalog.dev/dataset/doe-eis-0005-bonneville-power-administration-fy-1979-program">
+    <owl:sameAs rdf:resource="urn:uuid:500c92fe-6d75-482f-9fed-145a6e5459cb"/>
+    <dct:description>&#34;This final statement is one of a series prepared annually by BPA on each fiscal year&#39;s proposed construction and maintenance program. This statement covers the potential impact of the major new facilities and maintenance programs proposed for fiscal year 1979. It must be reviewed and used in conjunction with the overall programmatic environmental statement entitled &#34;The Role of the Bonneville Power Administration in the Pacific Northwest Power Supply System, Including Its Participation in the Hydro-Thermal Power Program: A Program Environmental Statement and Planning Report&#34;
+</dct:description>
+    
+        <dcat:keyword></dcat:keyword>
+    
+    <foaf:homepage rdf:resource="http://catalog.dev/dataset/doe-eis-0005-bonneville-power-administration-fy-1979-program"/>
+    <rdfs:label>doe-eis-0005-bonneville-power-administration-fy-1979-program</rdfs:label>
+
+    <dct:identifier>doe-eis-0005-bonneville-power-administration-fy-1979-program</dct:identifier>
+    <dct:title>DOE-EIS-0005: Bonneville Power Administration FY 1979 Program</dct:title>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/202.kml"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>KML</rdf:value>
+                            <rdfs:label>KML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>KML Access</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/202.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>Map Warper</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://energy.gov/node/942851"/>
+                    
+               <dct:title>Source of Project</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://gcmd.nasa.gov/Resources/valids/archives/keyword_list.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>GCMD Science Keywords and Associated Directory Keywords</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://gcmd.nasa.gov/Resources/valids/archives/keyword_list.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>GCMD Science Keywords and Associated Directory Keywords</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/wms/202?request=GetCapabilities&amp;service=WMS&amp;version=1.1.1"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>OGC-WMS</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+    
+    
+
+    
+
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-east-long</rdfs:label>
+            <rdf:value>-108.153013341894</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>resource-type</rdfs:label>
+            <rdf:value>dataset</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-north-lat</rdfs:label>
+            <rdf:value>50.1736879552482</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>coupled-resource</rdfs:label>
+            <rdf:value>[{&#34;href&#34;: [&#34;#DataIdentification&#34;], &#34;uuid&#34;: [], &#34;title&#34;: []}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>guid</rdfs:label>
+            <rdf:value>202-NEPAMW-66434009-47d8-4f1a-9b40-b4d180d5376a</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial_harvester</rdfs:label>
+            <rdf:value>True</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-south-lat</rdfs:label>
+            <rdf:value>40.185176529576</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-reference-system</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial</rdfs:label>
+            <rdf:value>{&#34;type&#34;: &#34;Polygon&#34;, &#34;coordinates&#34;: [[[-127.529524484, 40.1851765296], [-108.153013342, 40.1851765296], [-108.153013342, 50.1736879552], [-127.529524484, 50.1736879552], [-127.529524484, 40.1851765296]]]}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>progress</rdfs:label>
+            <rdf:value>onGoing</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>access_constraints</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal-extent-begin</rdfs:label>
+            <rdf:value>2014-08-23</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-email</rdfs:label>
+            <rdf:value>AskNEPA@hq.doe.gov</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-west-long</rdfs:label>
+            <rdf:value>-127.52952448428</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-date</rdfs:label>
+            <rdf:value>2014-08-23</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>dataset-reference-date</rdfs:label>
+            <rdf:value>[{&#34;type&#34;: &#34;publication&#34;, &#34;value&#34;: &#34;2014-08-23&#34;}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>frequency-of-update</rdfs:label>
+            <rdf:value>daily</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>licence</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata_type</rdfs:label>
+            <rdf:value>geospatial</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>responsible-party</rdfs:label>
+            <rdf:value>[{&#34;name&#34;: &#34;U.S. Department of Energy&#34;, &#34;roles&#34;: [&#34;pointOfContact&#34;]}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-data-service-type</rdfs:label>
+            <rdf:value>Open Geospatial Consortium Web Map Service (WMS)</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-language</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_object_id</rdfs:label>
+            <rdf:value>0088b040-4f86-4e98-8992-3fa1125ece68</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_id</rdfs:label>
+            <rdf:value>93b99d77-c1ee-4e43-8787-ea63a3cccc7d</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_title</rdfs:label>
+            <rdf:value>NEPAnode MapWarper</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+  </dcat:Dataset>
+</rdf:RDF>

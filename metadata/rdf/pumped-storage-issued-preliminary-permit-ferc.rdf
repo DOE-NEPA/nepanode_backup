@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+>
+  <dcat:Dataset rdf:about="http://catalog.dev/dataset/pumped-storage-issued-preliminary-permit-ferc">
+    <owl:sameAs rdf:resource="urn:uuid:3f20f548-d879-42c3-99b7-1e9c167036f5"/>
+    <dct:description>Issued preliminary permits for pumped storage projects by the Federal Energy Regulatory Commission. Preliminary permits are issued for up to three years, and do not authorize construction; rather, it maintains priority of application for a license (i.e., guaranteed first-to-file status) while the permittee studies the site and prepares to apply for a license. The permittee must submit periodic reports on the status of its studies. It is not necessary to obtain a permit in order to apply for or receive a license.</dct:description>
+    
+        <dcat:keyword></dcat:keyword>
+    
+    <foaf:homepage rdf:resource="http://catalog.dev/dataset/pumped-storage-issued-preliminary-permit-ferc"/>
+    <rdfs:label>pumped-storage-issued-preliminary-permit-ferc</rdfs:label>
+
+    <dct:identifier>pumped-storage-issued-preliminary-permit-ferc</dct:identifier>
+    <dct:title>Pumped Storage Issued Preliminary Permit (FERC)</dct:title>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://54.236.235.110/layers/geonode:pumped_storage_issued_preliminary_permit"/>
+                    
+               <dct:title>Web Page</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+    
+    
+
+    
+
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-east-long</rdfs:label>
+            <rdf:value>-69.6883000000</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>resource-type</rdfs:label>
+            <rdf:value>dataset</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-north-lat</rdfs:label>
+            <rdf:value>47.8017000000</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>coupled-resource</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>graphic-preview-type</rdfs:label>
+            <rdf:value>image/png</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>guid</rdfs:label>
+            <rdf:value>b531618a-cb40-11e3-bd7d-0edf97cbbd9a</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>graphic-preview-file</rdfs:label>
+            <rdf:value>Thumbnail object</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-south-lat</rdfs:label>
+            <rdf:value>32.9123000000</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-reference-system</rdfs:label>
+            <rdf:value>4326</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial_harvester</rdfs:label>
+            <rdf:value>True</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial</rdfs:label>
+            <rdf:value>{&#34;type&#34;: &#34;Polygon&#34;, &#34;coordinates&#34;: [[[-121.6739, 32.9123], [-69.6883, 32.9123], [-69.6883, 47.8017], [-121.6739, 47.8017], [-121.6739, 32.9123]]]}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>progress</rdfs:label>
+            <rdf:value>completed</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>access_constraints</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-email</rdfs:label>
+            <rdf:value>John.Jediny@hq.doe.gov</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-west-long</rdfs:label>
+            <rdf:value>-121.6739000000</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-date</rdfs:label>
+            <rdf:value>2014-04-23T23:40:52Z</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>dataset-reference-date</rdfs:label>
+            <rdf:value>[{&#34;type&#34;: &#34;publication&#34;, &#34;value&#34;: &#34;2014-04-23T23:40:52Z&#34;}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>graphic-preview-description</rdfs:label>
+            <rdf:value>Thumbnail for &#39;Pumped Storage Issued Preliminary Permit (FERC)&#39;</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>frequency-of-update</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>licence</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata_type</rdfs:label>
+            <rdf:value>geospatial</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>responsible-party</rdfs:label>
+            <rdf:value>[{&#34;name&#34;: &#34;&#34;, &#34;roles&#34;: [&#34;pointOfContact&#34;]}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-data-service-type</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-language</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_object_id</rdfs:label>
+            <rdf:value>55a18ae6-c60f-421e-825b-880fd9325ded</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_id</rdfs:label>
+            <rdf:value>081666be-6e0e-45b8-8df8-ea2ed91352cf</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_title</rdfs:label>
+            <rdf:value>NEPAnode</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+  </dcat:Dataset>
+</rdf:RDF>

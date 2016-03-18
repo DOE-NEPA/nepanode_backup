@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+>
+  <dcat:Dataset rdf:about="http://catalog.dev/dataset/doe-eis-0493-corpus-christi-lng-terminal-and-pipeline-project-nueces-and-san-patricio-counties-">
+    <owl:sameAs rdf:resource="urn:uuid:5038463f-cb03-4740-9d34-30f9a96b6601"/>
+    <dct:description>The Federal Energy Regulatory Commission (FERC), with DOE as a cooperating agency, is preparing an EIS to analyze the potential environmental impacts of a proposal to construct and operate a liquefied natural gas export and import terminal on the north shore of Corpus Christi Bay in Nueces and San Patricio Counties, Texas; a marine berth connecting the terminal to the adjacent La Quinta Channel; and an approximately 23-mile-long natural gas transmission pipeline and associated facilities. DOE, Office of Fossil Energy, has an obligation under Section 3 of the Natural Gas Act to authorize the import and export of natural gas, including LNG, unless it finds that the import or export is not consistent with the public interest.
+In June 2012, FERC issued a notice of intent to prepare an EA; in October 2012, FERC announced that it would instead prepare an EIS. Additional information is available at FERC&#39;s eLibrary website, http://elibrary.ferc.gov/idmws/docket_search.asp; search for docket number CP12-507</dct:description>
+    
+        <dcat:keyword></dcat:keyword>
+    
+    <foaf:homepage rdf:resource="http://catalog.dev/dataset/doe-eis-0493-corpus-christi-lng-terminal-and-pipeline-project-nueces-and-san-patricio-counties-"/>
+    <rdfs:label>doe-eis-0493-corpus-christi-lng-terminal-and-pipeline-project-nueces-and-san-patricio-counties-</rdfs:label>
+
+    <dct:identifier>doe-eis-0493-corpus-christi-lng-terminal-and-pipeline-project-nueces-and-san-patricio-counties-</dct:identifier>
+    <dct:title>DOE-EIS-0493: Corpus Christi LNG Terminal and Pipeline Project, Nueces and San Patricio Counties, Texas</dct:title>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/20.kml"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>KML</rdf:value>
+                            <rdfs:label>KML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>KML Access</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/20.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>Map Warper</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://energy.gov/node/607531"/>
+                    
+               <dct:title>Source of Project</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://gcmd.nasa.gov/Resources/valids/archives/keyword_list.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>GCMD Science Keywords and Associated Directory Keywords</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://gcmd.nasa.gov/Resources/valids/archives/keyword_list.html"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>HTML</rdf:value>
+                            <rdfs:label>HTML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>GCMD Science Keywords and Associated Directory Keywords</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://warp.nepanode.anl.gov/maps/wms/20?request=GetCapabilities&amp;service=WMS&amp;version=1.1.1"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>OGC-WMS</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+    
+    
+
+    
+
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-east-long</rdfs:label>
+            <rdf:value>-97.2442356035857</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>resource-type</rdfs:label>
+            <rdf:value>dataset</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-north-lat</rdfs:label>
+            <rdf:value>27.9453760389359</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>coupled-resource</rdfs:label>
+            <rdf:value>[{&#34;href&#34;: [&#34;#DataIdentification&#34;], &#34;uuid&#34;: [], &#34;title&#34;: []}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>guid</rdfs:label>
+            <rdf:value>20-NEPAMW-1d4eb961-d9d2-4003-ba98-033d285a1e31</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial_harvester</rdfs:label>
+            <rdf:value>True</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-south-lat</rdfs:label>
+            <rdf:value>27.8412857398758</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-reference-system</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial</rdfs:label>
+            <rdf:value>{&#34;type&#34;: &#34;Polygon&#34;, &#34;coordinates&#34;: [[[-97.3291164722, 27.8412857399], [-97.2442356036, 27.8412857399], [-97.2442356036, 27.9453760389], [-97.3291164722, 27.9453760389], [-97.3291164722, 27.8412857399]]]}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>progress</rdfs:label>
+            <rdf:value>onGoing</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>access_constraints</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal-extent-begin</rdfs:label>
+            <rdf:value>2014-08-22</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-email</rdfs:label>
+            <rdf:value>AskNEPA@hq.doe.gov</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-west-long</rdfs:label>
+            <rdf:value>-97.3291164721987</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-date</rdfs:label>
+            <rdf:value>2014-08-22</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>dataset-reference-date</rdfs:label>
+            <rdf:value>[{&#34;type&#34;: &#34;publication&#34;, &#34;value&#34;: &#34;2014-08-22&#34;}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>frequency-of-update</rdfs:label>
+            <rdf:value>daily</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>licence</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata_type</rdfs:label>
+            <rdf:value>geospatial</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>responsible-party</rdfs:label>
+            <rdf:value>[{&#34;name&#34;: &#34;U.S. Department of Energy&#34;, &#34;roles&#34;: [&#34;pointOfContact&#34;]}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-data-service-type</rdfs:label>
+            <rdf:value>Open Geospatial Consortium Web Map Service (WMS)</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-language</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_object_id</rdfs:label>
+            <rdf:value>46495e47-38ae-4cd1-9a2a-43ebb88aeccf</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_id</rdfs:label>
+            <rdf:value>93b99d77-c1ee-4e43-8787-ea63a3cccc7d</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_title</rdfs:label>
+            <rdf:value>NEPAnode MapWarper</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+  </dcat:Dataset>
+</rdf:RDF>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+>
+  <dcat:Dataset rdf:about="http://catalog.dev/dataset/editting-demo-line">
+    <owl:sameAs rdf:resource="urn:uuid:4f221da4-cf5d-4561-a1b7-58848c889eb8"/>
+    <dct:description>No abstract provided</dct:description>
+    
+        <dcat:keyword></dcat:keyword>
+    
+    <foaf:homepage rdf:resource="http://catalog.dev/dataset/editting-demo-line"/>
+    <rdfs:label>editting-demo-line</rdfs:label>
+
+    <dct:identifier>editting-demo-line</dct:identifier>
+    <dct:title>Editting Demo - Line</dct:title>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/layers/geonode%3Anepanode_edit_demo_line"/>
+                    
+               <dct:title>Web Page</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Anepanode_edit_demo_line&amp;width=550&amp;bbox=0.0%2C0.0%2C-1.0%2C-1.0&amp;service=WMS&amp;format=image%2Fjpeg&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.jpg</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Anepanode_edit_demo_line&amp;width=550&amp;bbox=0.0%2C0.0%2C-1.0%2C-1.0&amp;service=WMS&amp;format=application%2Fpdf&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.pdf</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wms?layers=geonode%3Anepanode_edit_demo_line&amp;width=550&amp;bbox=0.0%2C0.0%2C-1.0%2C-1.0&amp;service=WMS&amp;format=image%2Fpng&amp;srs=EPSG%3A4326&amp;request=GetMap&amp;height=550"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.png</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wfs?format_options=charset%3AUTF-8&amp;typename=geonode%3Anepanode_edit_demo_line&amp;outputFormat=SHAPE-ZIP&amp;version=1.0.0&amp;service=WFS&amp;request=GetFeature"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WFS</rdf:value>
+                            <rdfs:label>WFS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.zip</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Anepanode_edit_demo_line&amp;outputFormat=gml2&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WFS</rdf:value>
+                            <rdfs:label>WFS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.gml</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Anepanode_edit_demo_line&amp;outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WFS</rdf:value>
+                            <rdfs:label>WFS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.gml</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Anepanode_edit_demo_line&amp;outputFormat=csv&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WFS</rdf:value>
+                            <rdfs:label>WFS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.csv</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wfs?typename=geonode%3Anepanode_edit_demo_line&amp;outputFormat=excel&amp;version=1.0.0&amp;request=GetFeature&amp;service=WFS"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WFS</rdf:value>
+                            <rdfs:label>WFS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.excel</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wfs?srsName=EPSG%3A4326&amp;typename=geonode%3Anepanode_edit_demo_line&amp;outputFormat=json&amp;version=1.0.0&amp;service=WFS&amp;request=GetFeature"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WFS</rdf:value>
+                            <rdfs:label>WFS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.json</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Anepanode_edit_demo_line&amp;mode=download"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.kml</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wms/kml?layers=geonode%3Anepanode_edit_demo_line&amp;mode=refresh"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.kml</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/gwc/service/gmaps?layers=geonode:nepanode_edit_demo_line&amp;zoom={z}&amp;x={x}&amp;y={y}&amp;format=image/png8"/>
+                    
+               <dct:title>nepanode_edit_demo_line.tiles</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wms/reflect?layers=geonode:nepanode_edit_demo_line&amp;width=200&amp;height=150&amp;format=image/png8"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.png</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/wms?request=GetLegendGraphic&amp;format=image/png&amp;WIDTH=20&amp;HEIGHT=20&amp;LAYER=geonode:nepanode_edit_demo_line&amp;legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on"/>
+                    
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>WMS</rdf:value>
+                            <rdfs:label>WMS</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+                    
+               <dct:title>nepanode_edit_demo_line.png</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/geonode/wms"/>
+                    
+               <dct:title>OGC:WMS geonode Service - Provides Layer: Editting Demo - Line</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://nepanode.anl.gov/geoserver/geonode/wfs"/>
+                    
+               <dct:title>OGC:WFS geonode Service - Provides Layer: Editting Demo - Line</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+    
+    
+    
+
+    
+
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-east-long</rdfs:label>
+            <rdf:value>-1.0</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>resource-type</rdfs:label>
+            <rdf:value>dataset</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-north-lat</rdfs:label>
+            <rdf:value>-1.0</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>coupled-resource</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>graphic-preview-type</rdfs:label>
+            <rdf:value>image/png</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>guid</rdfs:label>
+            <rdf:value>aed65564-b0bc-11e3-84cc-0edf278dde01</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>graphic-preview-file</rdfs:label>
+            <rdf:value>http://nepanode.anl.gov/geoserver/wms/reflect?layers=geonode:nepanode_edit_demo_line&amp;width=200&amp;height=150&amp;format=image/png8</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-south-lat</rdfs:label>
+            <rdf:value>0.0</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-reference-system</rdfs:label>
+            <rdf:value>4326</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial_harvester</rdfs:label>
+            <rdf:value>True</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial</rdfs:label>
+            <rdf:value>{&#34;type&#34;: &#34;Polygon&#34;, &#34;coordinates&#34;: [[[0.0, 0.0], [-1.0, 0.0], [-1.0, -1.0], [0.0, -1.0], [0.0, 0.0]]]}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>progress</rdfs:label>
+            <rdf:value>completed</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>access_constraints</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-email</rdfs:label>
+            <rdf:value>John.Jediny@hq.doe.gov</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-west-long</rdfs:label>
+            <rdf:value>0.0</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-date</rdfs:label>
+            <rdf:value>2014-01-01T00:50:18Z</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>dataset-reference-date</rdfs:label>
+            <rdf:value>[{&#34;type&#34;: &#34;publication&#34;, &#34;value&#34;: &#34;2014-01-01T00:50:18Z&#34;}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>graphic-preview-description</rdfs:label>
+            <rdf:value>Thumbnail for &#39;Editting Demo - Line&#39;</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>frequency-of-update</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>licence</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata_type</rdfs:label>
+            <rdf:value>geospatial</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>responsible-party</rdfs:label>
+            <rdf:value>[{&#34;name&#34;: &#34;Office of NEPA Policy and Compliance (GC-54)&#34;, &#34;roles&#34;: [&#34;pointOfContact&#34;]}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-data-service-type</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-language</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_object_id</rdfs:label>
+            <rdf:value>63cee999-0f50-4540-8f0f-7d5d7f7010d6</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_id</rdfs:label>
+            <rdf:value>081666be-6e0e-45b8-8df8-ea2ed91352cf</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_title</rdfs:label>
+            <rdf:value>NEPAnode</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+    
+  </dcat:Dataset>
+</rdf:RDF>
